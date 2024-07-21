@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .playfair {
+        font-family: "Playfair Display", serif;
+      }
+      .open {
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+    <title>vvsk.m</title>
+  </head>
+  <body class="bg-[#E5E5CB] px-[20px] py-2">
+    <nav class="flex items-center justify-between">
+      <div class="md:hidden block">
+        <a href="" class="playfair text-[1.5rem]">V</a>
+      </div>
+      <div class="hidden md:block text-[1.3rem]">
+        <a href="" class="playfair text-[#1A120B]">vvsk.m</a>
+      </div>
+      <ul class="flex items-center gap-8 sm:gap-[4rem] md:gap-[8rem] open">
+        <li><a href="#" class="text-[#1A120B]">Home</a></li>
+        <li><a href="#creations" class="text-[#1A120B]">Creations</a></li>
+        <li><a href="#contact" class="text-[#1A120B]">Contact</a></li>
+      </ul>
+    </nav>
+    <section
+      class="flex flex-col md:flex-row md:items-center justify-between h-[90vh] pt-[40px]"
+    >
+      <h1
+        class="playfair text-[4rem] sm:text-[5rem] md:text-[5.5rem] text-[#1A120B]"
+      >
+        Hello, there!
+      </h1>
+      <p class="open text-[#3C2A21] sm:text-[1.1rem] md:w-[40%] opacity-70">
+        I'm Varun, a developer, designer, and newbie photographer. I love
+        creating things in a creative way. I've been learning all these skills
+        for 3 years now, and I'm still picking up new things every day.
+      </p>
+    </section>
+    <section class="mt-[10rem]">
+      <h1 class="playfair md:text-[6rem] text-[5rem] text-right">Creations</h1>
+      <div class="grid gap-4">
+        <div class="mt-[5rem] md:grid md:grid-cols-2 md:gap-4 flex flex-col">
+          <div class="w-full h-[500px] md:h-[500px]">
+            <img
+              src="../static/Images/Minimal.png"
+              alt="Minimal"
+              class="rounded-[2rem] relative object-cover w-full h-full"
+            />
+          </div>
+          <div
+            class="flex flex-col md:flex-col md:justify-between py-4 px-[10px] pt-4"
+          >
+            <a
+              href="https://minimaltodo.netlify.app/"
+              class="open text-[3rem] md:text-[4rem] font-semibold text-[#1A120B] underline underline-offset-2"
+              >Minimal</a
+            >
+            <p class="playfair text-[#1A120B] opacity-50 text-sm">
+              Minimal is a streamlined web application designed for efficient
+              task management and journaling. Users can create, organize, and
+              manage their tasks with ease while also having the capability to
+              take notes and journal entries. The application prioritizes
+              simplicity and ease of use, making it an ideal tool for both
+              productivity and personal reflection.
+            </p>
+          </div>
+        </div>
+        <div class="mt-[5rem] md:grid md:grid-cols-2 md:gap-4 flex flex-col">
+          <div class="w-auto h-auto md:w-full md:h-[500px]">
+            <img
+              src="../static/Images/Coinup.png"
+              alt="Minimal"
+              class="rounded-[2rem] relative object-cover w-full h-full"
+            />
+          </div>
+          <div
+            class="flex flex-col md:flex-col md:justify-between py-4 px-[10px] pt-4"
+          >
+            <a
+              href="https://coin-up-eight.vercel.app/"
+              class="open text-[3rem] md:text-[4rem] font-semibold text-[#1A120B] underline underline-offset-2"
+              >CoinUp</a
+            >
+            <p class="playfair text-[#1A120B] opacity-50 text-sm">
+              CoinUp is a financial tracking web application designed to help
+              users manage their finances efficiently. The application offers
+              features for tracking income, expenses, and overall financial
+              health. Built with Next.js and Tailwind CSS, it ensures a seamless
+              user experience with a modern interface. Users can add, update,
+              and delete financial records, providing a comprehensive view of
+              their financial status.The issue I faced was the responsiveness. The mobile responsiveness is bad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
